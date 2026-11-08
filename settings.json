@@ -1,0 +1,66 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "disable_ai": true,
+  "format_on_save": "on",
+  "tab_bar": {
+    "show_nav_history_buttons": false
+  },
+  "languages": {
+    "Rust": {
+      "inlay_hints": {
+        "enabled": true,
+        "show_type_hints": true,
+        "show_parameter_hints": true,
+        "show_other_hints": true
+      }
+    }
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "global_lsp_settings": {
+    "button": false
+  },
+  "agent": {
+    "button": false,
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "outline_panel": {
+    "button": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "base_keymap": "VSCode",
+  "auto_install_extensions": {
+    "vscode-2026-theme": true
+  },
+  "icon_theme": {
+    "mode": "system",
+    "light": "Zed (Default)",
+    "dark": "Material Icon Theme"
+  },
+  "ui_font_size": 16,
+  "buffer_font_family": "Menlo",
+  "buffer_font_size": 15,
+  "buffer_font_weight": 400,
+  "buffer_line_height": {
+    "custom": 1.5
+  },
+  "buffer_font_features": {
+    "calt": false
+  },
+  "theme": {
+    "mode": "system",
+    "light": "VS Code Light 2026",
+    "dark": "VS Code Dark 2026",
+  },
+}
