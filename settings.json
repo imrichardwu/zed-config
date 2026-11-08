@@ -9,6 +9,11 @@
 {
   "disable_ai": true,
   "format_on_save": "on",
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
   "tab_bar": {
     "show_nav_history_buttons": false
   },
